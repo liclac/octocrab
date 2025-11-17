@@ -13,7 +13,6 @@ pub struct PushEventPayload {
     pub r#ref: String,
     pub head: String,
     pub before: String,
-    pub commits: Vec<Commit>,
 }
 
 #[cfg(test)]
